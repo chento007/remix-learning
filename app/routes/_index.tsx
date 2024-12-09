@@ -73,11 +73,7 @@ export default function Index() {
 
     return (
         <div className="flex h-screen items-center justify-center p-28">
-            <Testimonial
-                testimonials={items}
-                onNext={handleNextPageTestimonial}
-                onPrevious={handlePreviousPageTestimonial}
-            />
+
         </div>
     );
 }
